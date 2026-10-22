@@ -1,0 +1,103 @@
+{
+  "analysis_date": "2026-10-22T17:45:19.478791",
+  "period": "1990-01-01 to 2026-10-22",
+  "overall": {
+    "total_days": 9268,
+    "open_higher": "2921",
+    "open_lower": "2648",
+    "open_same": "3699",
+    "avg_difference": 0.40676770891462055,
+    "median_difference": 0.0,
+    "std_difference": 11.791737636470225,
+    "max_gap_up": 147.2900390625,
+    "max_gap_down": -202.429931640625,
+    "pct_higher": 31.517047906776003,
+    "pct_lower": 28.57142857142857,
+    "pct_same": 39.91152352179543
+  },
+  "intraday": {
+    "avg_daily_range": 22.61183529369369,
+    "avg_open_to_high": 10.93339186245684,
+    "avg_open_to_low": -11.67844343123685,
+    "days_closed_near_high": "9250",
+    "days_closed_near_low": "9235",
+    "days_opened_near_low": "9235",
+    "days_opened_near_high": "9253"
+  },
+  "by_decade": {
+    "1990s": {
+      "total_days": 2527,
+      "open_higher": "319",
+      "open_lower": "271",
+      "pct_higher": 12.623664424218441,
+      "pct_lower": 10.72417886822319,
+      "avg_difference": 0.0002849233164634448
+    },
+    "2000s": {
+      "total_days": 2515,
+      "open_higher": "320",
+      "open_lower": "591",
+      "pct_higher": 12.72365805168986,
+      "pct_lower": 23.49900596421471,
+      "avg_difference": -0.05052888236984344
+    },
+    "2010s": {
+      "total_days": 2516,
+      "open_higher": "1305",
+      "open_lower": "1054",
+      "pct_higher": 51.86804451510334,
+      "pct_lower": 41.891891891891895,
+      "avg_difference": 0.37994076678787014
+    },
+    "2020s": {
+      "total_days": 1710,
+      "open_higher": "977",
+      "open_lower": "732",
+      "pct_higher": 57.134502923976605,
+      "pct_lower": 42.80701754385965,
+      "avg_difference": 1.7195042660361841
+    }
+  },
+  "by_day_of_week": {
+    "Monday": {
+      "total_days": 1747,
+      "open_higher": "535",
+      "open_lower": "526",
+      "pct_higher": 30.62392673153978,
+      "pct_lower": 30.108757870635376,
+      "avg_difference": 0.2562497798961166
+    },
+    "Tuesday": {
+      "total_days": 1902,
+      "open_higher": "592",
+      "open_lower": "527",
+      "pct_higher": 31.125131440588856,
+      "pct_lower": 27.707676130389064,
+      "avg_difference": 0.4599789399829949
+    },
+    "Wednesday": {
+      "total_days": 1900,
+      "open_higher": "607",
+      "open_lower": "551",
+      "pct_higher": 31.94736842105263,
+      "pct_lower": 28.999999999999996,
+      "avg_difference": 0.7428858546206826
+    },
+    "Thursday": {
+      "total_days": 1865,
+      "open_higher": "580",
+      "open_lower": "551",
+      "pct_higher": 31.099195710455763,
+      "pct_lower": 29.544235924932977,
+      "avg_difference": 0.21891309313735757
+    },
+    "Friday": {
+      "total_days": 1854,
+      "open_higher": "607",
+      "open_lower": "493",
+      "pct_higher": 32.740021574973035,
+      "pct_lower": 26.591154261057177,
+      "avg_difference": 0.33852145329776834
+    }
+  }
+}

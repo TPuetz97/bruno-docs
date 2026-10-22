@@ -1,0 +1,65 @@
+{
+  "search_date": "2026-10-22T18:12:28.952586",
+  "kenneth_french": {
+    "accessible": true,
+    "has_intraday": false,
+    "has_daily": true,
+    "note": "Daily factors available, but no public intraday data"
+  },
+  "wrds": {
+    "accessible": false,
+    "requires_subscription": true,
+    "has_intraday": true,
+    "note": "TAQ data available from 1993, but requires subscription"
+  },
+  "alternative_sources": [
+    {
+      "name": "TAQ (NYSE Trade and Quote)",
+      "intraday": true,
+      "from_year": 1993,
+      "access": "Paid/Academic subscription",
+      "cost": "Very expensive",
+      "note": "Gold standard for US equity tick data"
+    },
+    {
+      "name": "CRSP (Center for Research in Security Prices)",
+      "intraday": true,
+      "from_year": 1993,
+      "access": "Academic subscription via WRDS",
+      "cost": "Institutional",
+      "note": "High-quality academic data"
+    },
+    {
+      "name": "TickData.com",
+      "intraday": true,
+      "from_year": 1996,
+      "access": "Commercial purchase",
+      "cost": "$1000s per dataset",
+      "note": "Historical tick data available for purchase"
+    },
+    {
+      "name": "Kibot",
+      "intraday": true,
+      "from_year": 1998,
+      "access": "Subscription",
+      "cost": "$30-$300/month",
+      "note": "Intraday data from 1998"
+    },
+    {
+      "name": "First Rate Data",
+      "intraday": true,
+      "from_year": 2000,
+      "access": "One-time purchase",
+      "cost": "$50-$200 per symbol",
+      "note": "Historical intraday data"
+    }
+  ],
+  "python_packages": [],
+  "french_download_test": {
+    "success": true,
+    "frequency": "daily",
+    "has_intraday": false,
+    "available_datasets": 297,
+    "sp500_related": 7
+  }
+}

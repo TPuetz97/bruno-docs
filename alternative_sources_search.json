@@ -1,0 +1,157 @@
+{
+  "search_date": "2026-10-22T18:16:38.942577",
+  "kaggle_datasets": [
+    {
+      "name": "S&P 500 Stock Data",
+      "author": "camnugent",
+      "url": "https://www.kaggle.com/datasets/camnugent/sandp500",
+      "frequency": "Daily",
+      "has_intraday": false,
+      "note": "Popular but daily only"
+    },
+    {
+      "name": "Huge Stock Market Dataset",
+      "author": "borismarjanovic",
+      "url": "https://www.kaggle.com/datasets/borismarjanovic/price-volume-data-for-all-us-stocks-etfs",
+      "frequency": "Daily",
+      "has_intraday": false,
+      "note": "All US stocks but daily"
+    },
+    {
+      "name": "Stock Market Dataset",
+      "author": "jacksoncrow",
+      "url": "https://www.kaggle.com/datasets/jacksoncrow/stock-market-dataset",
+      "frequency": "Daily",
+      "has_intraday": false,
+      "note": "Up to 2020, daily"
+    }
+  ],
+  "archive_org": {
+    "available": true,
+    "likely_has_intraday": false,
+    "note": "Worth checking but unlikely to have comprehensive intraday data"
+  },
+  "academic_torrents": {
+    "platform": "Academic Torrents",
+    "url": "https://academictorrents.com/",
+    "accessible": true,
+    "likely_has_market_data": "Possible but not primary focus"
+  },
+  "github_repos": [
+    {
+      "name": "stock-data",
+      "url": "https://github.com/datasets/stock-market-data",
+      "description": "Daily stock prices",
+      "has_intraday": false
+    },
+    {
+      "name": "financial-data",
+      "url": "https://github.com/topics/financial-data",
+      "description": "Topic with multiple repos",
+      "has_intraday": "Mixed"
+    },
+    {
+      "name": "historical-stock-data",
+      "url": "https://github.com/topics/historical-stock-data",
+      "description": "Multiple repositories",
+      "has_intraday": "Some may have"
+    }
+  ],
+  "quantconnect": {
+    "source": "QuantConnect",
+    "free": true,
+    "intraday": true,
+    "from_year": 1998,
+    "resolution": [
+      "Minute",
+      "Hour",
+      "Daily"
+    ],
+    "access": "Free account + API",
+    "recommended": true
+  },
+  "other_free_sources": [
+    {
+      "name": "Polygon.io Free Tier",
+      "url": "https://polygon.io/",
+      "intraday": true,
+      "from_year": 2004,
+      "cost": "Free tier limited, $99/mo for full",
+      "limitations": "Rate limits, delayed data",
+      "verdict": "Limited but possible"
+    },
+    {
+      "name": "Alpha Vantage Free",
+      "url": "https://www.alphavantage.co/",
+      "intraday": true,
+      "from_year": "~2000",
+      "cost": "Free tier available",
+      "limitations": "5 API calls/min, last 1-2 years intraday",
+      "verdict": "Very limited for historical"
+    },
+    {
+      "name": "IEX Cloud",
+      "url": "https://iexcloud.io/",
+      "intraday": true,
+      "from_year": "~2017",
+      "cost": "Free tier available",
+      "limitations": "Short history",
+      "verdict": "Too recent"
+    },
+    {
+      "name": "Tiingo",
+      "url": "https://www.tiingo.com/",
+      "intraday": true,
+      "from_year": "~2015",
+      "cost": "Free tier: 1000 requests/day",
+      "limitations": "Limited historical depth",
+      "verdict": "Limited"
+    },
+    {
+      "name": "Alpaca Markets",
+      "url": "https://alpaca.markets/",
+      "intraday": true,
+      "from_year": "~2015",
+      "cost": "Free with trading account",
+      "limitations": "Need account, limited history",
+      "verdict": "Recent data only"
+    }
+  ],
+  "legal_sharing_platforms": [
+    {
+      "name": "Academic Torrents",
+      "legal": "Yes",
+      "url": "https://academictorrents.com/",
+      "focus": "Academic datasets",
+      "likely_has": "Unlikely for proprietary market data"
+    },
+    {
+      "name": "DataHub.io",
+      "legal": "Yes",
+      "url": "https://datahub.io/",
+      "focus": "Open data",
+      "likely_has": "Daily data possible, intraday unlikely"
+    },
+    {
+      "name": "Zenodo",
+      "legal": "Yes",
+      "url": "https://zenodo.org/",
+      "focus": "Research data repository",
+      "likely_has": "Possible for academic datasets"
+    },
+    {
+      "name": "Figshare",
+      "legal": "Yes",
+      "url": "https://figshare.com/",
+      "focus": "Academic data sharing",
+      "likely_has": "Small datasets only"
+    },
+    {
+      "name": "Dryad",
+      "legal": "Yes",
+      "url": "https://datadryad.org/",
+      "focus": "Academic research data",
+      "likely_has": "Possible but unlikely"
+    }
+  ]
+}

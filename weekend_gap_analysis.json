@@ -1,0 +1,139 @@
+{
+  "analysis_date": "2026-10-22T18:04:04.454407",
+  "period": "1990-01-01 to 2026-10-22",
+  "weekend_gap_stats": {
+    "total_transitions": 1681,
+    "gap_higher": "517",
+    "gap_lower": "505",
+    "gap_same": "659",
+    "pct_higher": 30.75550267697799,
+    "pct_lower": 30.04164187983343,
+    "pct_same": 39.202855443188575,
+    "avg_gap": 0.2783511023944081,
+    "median_gap": 0.0,
+    "std_gap": 14.29148741885595,
+    "min_gap": -202.429931640625,
+    "max_gap": 147.2900390625
+  },
+  "all_transitions": {
+    "Friday \u2192 Monday": {
+      "label": "Friday \u2192 Monday",
+      "count": 1681,
+      "gap_higher": "517",
+      "gap_lower": "505",
+      "pct_higher": 30.75550267697799,
+      "pct_lower": 30.04164187983343,
+      "avg_gap": 0.2783511023944081,
+      "median_gap": 0.0,
+      "std_gap": 14.29148741885595
+    },
+    "Monday \u2192 Tuesday": {
+      "label": "Monday \u2192 Tuesday",
+      "count": 1731,
+      "gap_higher": "542",
+      "gap_lower": "472",
+      "pct_higher": 31.311380704794917,
+      "pct_lower": 27.26747544771808,
+      "avg_gap": 0.597556428782586,
+      "median_gap": 0.0,
+      "std_gap": 10.803030168772656
+    },
+    "Tuesday \u2192 Wednesday": {
+      "label": "Tuesday \u2192 Wednesday",
+      "count": 1882,
+      "gap_higher": "605",
+      "gap_lower": "542",
+      "pct_higher": 32.146652497343254,
+      "pct_lower": 28.799149840595113,
+      "avg_gap": 0.7673978896754201,
+      "median_gap": 0.0,
+      "std_gap": 10.6057628390641
+    },
+    "Wednesday \u2192 Thursday": {
+      "label": "Wednesday \u2192 Thursday",
+      "count": 1845,
+      "gap_higher": "574",
+      "gap_lower": "544",
+      "pct_higher": 31.11111111111111,
+      "pct_lower": 29.485094850948514,
+      "avg_gap": 0.2156545085958672,
+      "median_gap": 0.0,
+      "std_gap": 12.430849504211523
+    },
+    "Thursday \u2192 Friday": {
+      "label": "Thursday \u2192 Friday",
+      "count": 1800,
+      "gap_higher": "590",
+      "gap_lower": "479",
+      "pct_higher": 32.77777777777778,
+      "pct_lower": 26.611111111111114,
+      "avg_gap": 0.35894934760199654,
+      "median_gap": 0.0,
+      "std_gap": 10.637948764953787
+    }
+  },
+  "weekend_by_decade": {
+    "1990s": {
+      "count": 463,
+      "gap_higher": "58",
+      "gap_lower": "65",
+      "pct_higher": 12.526997840172784,
+      "pct_lower": 14.038876889848812,
+      "avg_gap": 0.0020522576943844493
+    },
+    "2000s": {
+      "count": 457,
+      "gap_higher": "60",
+      "gap_lower": "105",
+      "pct_higher": 13.129102844638949,
+      "pct_lower": 22.975929978118163,
+      "avg_gap": -0.01991028232699672
+    },
+    "2010s": {
+      "count": 456,
+      "gap_higher": "229",
+      "gap_lower": "200",
+      "pct_higher": 50.21929824561403,
+      "pct_lower": 43.859649122807014,
+      "avg_gap": 0.6253493459601152
+    },
+    "2020s": {
+      "count": 305,
+      "gap_higher": "170",
+      "gap_lower": "135",
+      "pct_higher": 55.73770491803278,
+      "pct_lower": 44.26229508196721,
+      "avg_gap": 0.6258941150102459
+    }
+  },
+  "weekend_vs_weekdays": {
+    "weekend": {
+      "avg_gap": 0.2783511023944081,
+      "pct_higher": 30.75550267697799
+    },
+    "other_weekdays": {
+      "avg_gap": 0.48488954366396747,
+      "pct_higher": 31.836730522756767
+    },
+    "difference": {
+      "gap_diff": -0.2065384412695594,
+      "pct_diff": -1.081227845778777
+    }
+  },
+  "monday_performance": {
+    "gap_up": {
+      "count": 517,
+      "avg_weekend_gap": 8.155087793818756,
+      "avg_monday_intraday": 5.536208132480053,
+      "pct_monday_up": 63.44294003868471,
+      "avg_total_from_friday": 13.691295926298809
+    },
+    "gap_down": {
+      "count": 505,
+      "avg_weekend_gap": -7.422321160949103,
+      "avg_monday_intraday": -2.8392080174814356,
+      "pct_monday_up": 45.742574257425744,
+      "avg_total_from_friday": -10.26152917843054
+    }
+  }
+}

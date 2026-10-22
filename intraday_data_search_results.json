@@ -1,0 +1,221 @@
+{
+  "search_date": "2026-10-22T17:55:12.915250",
+  "yfinance_tests": [
+    {
+      "interval": "1m",
+      "period": "1d",
+      "success": true,
+      "num_candles": 266,
+      "start_date": "2026-10-22 09:30:00-04:00",
+      "end_date": "2026-10-22 13:55:00-04:00",
+      "days_covered": 0
+    },
+    {
+      "interval": "1m",
+      "period": "5d",
+      "success": true,
+      "num_candles": 1826,
+      "start_date": "2026-10-16 09:30:00-04:00",
+      "end_date": "2026-10-22 13:55:00-04:00",
+      "days_covered": 6
+    },
+    {
+      "interval": "1m",
+      "period": "1mo",
+      "success": false,
+      "error": "Empty dataframe"
+    },
+    {
+      "interval": "5m",
+      "period": "1mo",
+      "success": true,
+      "num_candles": 1717,
+      "start_date": "2026-09-22 13:55:00-04:00",
+      "end_date": "2026-10-22 13:55:00-04:00",
+      "days_covered": 30
+    },
+    {
+      "interval": "5m",
+      "period": "3mo",
+      "success": false,
+      "error": "Empty dataframe"
+    },
+    {
+      "interval": "15m",
+      "period": "3mo",
+      "success": false,
+      "error": "Empty dataframe"
+    },
+    {
+      "interval": "15m",
+      "period": "6mo",
+      "success": false,
+      "error": "Empty dataframe"
+    },
+    {
+      "interval": "30m",
+      "period": "6mo",
+      "success": false,
+      "error": "Empty dataframe"
+    },
+    {
+      "interval": "1h",
+      "period": "1y",
+      "success": true,
+      "num_candles": 1741,
+      "start_date": "2025-10-22 13:30:00-04:00",
+      "end_date": "2026-10-22 13:30:00-04:00",
+      "days_covered": 365
+    },
+    {
+      "interval": "1h",
+      "period": "2y",
+      "success": true,
+      "num_candles": 3479,
+      "start_date": "2024-10-22 13:30:00-04:00",
+      "end_date": "2026-10-22 13:30:00-04:00",
+      "days_covered": 730
+    },
+    {
+      "interval": "1h",
+      "period": "5y",
+      "success": false,
+      "error": "Empty dataframe"
+    },
+    {
+      "interval": "1h",
+      "period": "max",
+      "success": true,
+      "num_candles": 3479,
+      "start_date": "2024-10-22 13:30:00-04:00",
+      "end_date": "2026-10-22 13:30:00-04:00",
+      "days_covered": 730
+    }
+  ],
+  "historical_date_tests": [
+    {
+      "description": "2024 (1 year back)",
+      "requested_start": "2024-01-01",
+      "requested_end": "2024-12-31",
+      "interval": "1h",
+      "success": false,
+      "error": "No data available"
+    },
+    {
+      "description": "2023 (2 years back)",
+      "requested_start": "2023-01-01",
+      "requested_end": "2023-12-31",
+      "interval": "1h",
+      "success": false,
+      "error": "No data available"
+    },
+    {
+      "description": "2020 (Pandemic year)",
+      "requested_start": "2020-01-01",
+      "requested_end": "2020-12-31",
+      "interval": "1h",
+      "success": false,
+      "error": "No data available"
+    },
+    {
+      "description": "2015 (10 years back)",
+      "requested_start": "2015-01-01",
+      "requested_end": "2015-12-31",
+      "interval": "1h",
+      "success": false,
+      "error": "No data available"
+    },
+    {
+      "description": "2010 (15 years back)",
+      "requested_start": "2010-01-01",
+      "requested_end": "2010-12-31",
+      "interval": "1h",
+      "success": false,
+      "error": "No data available"
+    },
+    {
+      "description": "2000 (25 years back)",
+      "requested_start": "2000-01-01",
+      "requested_end": "2000-12-31",
+      "interval": "1h",
+      "success": false,
+      "error": "No data available"
+    },
+    {
+      "description": "1995 (30 years back)",
+      "requested_start": "1995-01-01",
+      "requested_end": "1995-12-31",
+      "interval": "1h",
+      "success": false,
+      "error": "No data available"
+    },
+    {
+      "description": "1990 (35 years back)",
+      "requested_start": "1990-01-01",
+      "requested_end": "1990-12-31",
+      "interval": "1h",
+      "success": false,
+      "error": "No data available"
+    }
+  ],
+  "alternative_symbol_tests": [
+    {
+      "symbol": "^GSPC",
+      "description": "S&P 500 Index",
+      "success": true,
+      "num_candles": 3479,
+      "start_date": "2024-10-22 13:30:00-04:00",
+      "end_date": "2026-10-22 13:30:00-04:00",
+      "years_covered": 1.998631074606434
+    },
+    {
+      "symbol": "SPY",
+      "description": "SPDR S&P 500 ETF",
+      "success": true,
+      "num_candles": 3478,
+      "start_date": "2024-10-22 13:30:00-04:00",
+      "end_date": "2026-10-22 13:30:00-04:00",
+      "years_covered": 1.998631074606434
+    },
+    {
+      "symbol": "^SPX",
+      "description": "S&P 500 (alternative)",
+      "success": true,
+      "num_candles": 3478,
+      "start_date": "2024-10-22 13:30:00-04:00",
+      "end_date": "2026-10-22 13:30:00-04:00",
+      "years_covered": 1.998631074606434
+    },
+    {
+      "symbol": "ES=F",
+      "description": "E-mini S&P 500 Futures",
+      "success": true,
+      "num_candles": 11429,
+      "start_date": "2024-10-22 13:00:00-04:00",
+      "end_date": "2026-10-22 13:00:00-04:00",
+      "years_covered": 1.998631074606434
+    }
+  ],
+  "summary": {
+    "yfinance_limits": {
+      "successful_combinations": 6,
+      "best_coverage": 730,
+      "max_candles": 3479
+    },
+    "historical_availability": {
+      "years_tested": 8,
+      "years_with_data": 0,
+      "oldest_available": null
+    },
+    "alternative_symbols": {
+      "symbols_tested": 4,
+      "symbols_with_data": 4,
+      "best_symbol": {
+        "symbol": "^GSPC",
+        "description": "S&P 500 Index",
+        "years_covered": 1.998631074606434,
+        "start_date": "2024-10-22 13:30:00-04:00"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "analysis_date": "2026-10-22T17:57:47.475254",
+  "data_range": {
+    "from": "2024-10-22 13:30:00-04:00",
+    "to": "2026-10-22 13:30:00-04:00",
+    "trading_days": 502,
+    "hourly_candles": 3479
+  },
+  "first_hour": {
+    "avg_move_dollars": 0.945363078934263,
+    "avg_move_percent": 0.014051308381599256,
+    "positive_days": 261,
+    "negative_days": 241,
+    "pct_positive": 51.992031872509955
+  },
+  "last_hour": {
+    "avg_move_dollars": -0.23141905036105578,
+    "avg_move_percent": -0.001885035129790935,
+    "positive_days": 249,
+    "negative_days": 253,
+    "pct_positive": 49.60159362549801
+  }
+}
